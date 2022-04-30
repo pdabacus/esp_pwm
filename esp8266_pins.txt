@@ -1,0 +1,19 @@
+#
+# esp8266 nodemcu v1.0 pins
+#
+
+    analog_in   a0       _   ____       d0      gpio16 (top/builtin led)
+    --          rsv     | | |           d1      gpio5
+    --          rsv     | |_| [=]       d2      gpio4
+    gpio10      sd3          led16      d3      gpio0
+    gpio9       sd2     [-------]       d4      gpio2 (middle led)
+    --          sd1     [-------]       3v3     3.3v
+    --          cmd     [-------]       gnd     ground
+    --          sd0     [-------]       d5      gpio14
+    --          clk     [-------]       d6      gpio12
+    ground      gnd                     d7      gpio13
+    3.3v        3v3      |=|            d8      gpio15
+    --          en       led2           rx      gpio3
+    --          rst      _______        tx      gpio1
+    ground      gnd      |     |        gnd     ground
+    volt in     vin      | usb |        3v3     3.3v
