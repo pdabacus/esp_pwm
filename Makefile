@@ -48,3 +48,7 @@ serial:
 	screen $(COMM) $(BAUD_SR)
 
 clean:
+	rm -rf $(BIN)
+	rm -rf $(CACHE)
+	rm $(OUTPUT)
+
